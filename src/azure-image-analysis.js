@@ -2,7 +2,7 @@
 //The function should receive as input the image URL and return the JSON response of the API.
 
 function analyzeImage(imageUrl) {
-  const subscriptionKey = "ac809c91158f4401a47cafe96617c1ea";
+  const subscriptionKey = "#";
   const endpoint = "https://jp-test-azure-ia.cognitiveservices.azure.com/";
   const uriBase = endpoint + "vision/v4.0/analyze";
   const imageUrlInput = document.getElementById("imageUrl");
